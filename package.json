@@ -1,0 +1,15 @@
+{
+  "name": "practisejs",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "nodemon script.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "nodemon": "^2.0.15"
+  }
+}

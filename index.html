@@ -1,0 +1,39 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript">
+        $.ajax({
+            url: "a.json",
+            auccess: function (r) {
+                $.ajax({
+                    url: "b.json?" + r.a,
+                    success: function (result) {
+                        $("#div1").html(result);
+                    },
+                });
+            },
+        });
+
+        var p1 = new Promise(function (resole, reject) {
+            resolve($.ajax("a,json"));
+        });
+
+        p1.then(function (r) {
+            return new Promise();
+        }).then(function (result) {
+            $("#div").html(result);
+        });
+
+    </script>
+</body>
+
+</html> -->
